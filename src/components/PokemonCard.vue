@@ -29,7 +29,7 @@ export default {
 }
 </script>
 <template>
-  <div class="card">
+  <div class="card card-title text-center col-3 align-items-center">
     <img :class="!correct ? 'filter' : ''" :src="imageUrl" :alt="pokemonName" />
     <div v-if="correct">
       <p class="name">{{ pokemonName }}</p>
